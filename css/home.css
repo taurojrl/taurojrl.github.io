@@ -1,0 +1,16 @@
+body{background:#1faaa7;}
+
+img{
+	height: 300px;
+	width: 300px;
+	border: 15px solid #0d47d7;
+    }
+
+big{
+	text-align: center;
+	font-size: 70px; 
+}
+
+li{
+   text-align: center;  
+}    
