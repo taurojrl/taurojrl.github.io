@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Tauro Ribeiro - Home</title>
+			<link rel="stylesheet" href="reset.css">
+			<link rel="stylesheet" href="css/contato.css">
+			
+		</head>
+		
+		<body>
+
+			<header>
+				<div class="caixa">
+					<img class="logo" src="imagens/logotr.png" alt="Logo da Empresa">		
+			 
+			 		<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="servicos.html">Serviços</a></li>
+							<li><a href="contato.html">Contato</a></li>
+			    		</ul>
+			 		</nav>
+			 	</div>
+			</header>
+			
+			<main>
+
+				<form>
+					
+					<label for="nomesobrenome">Nome e Sobrenome</label>
+					<input type="text" id="nomesobrenome" required placeholder="Nome e Sobrenome">
+
+					<label for="email">Email</label>
+					<input type="email" id="email" required placeholder="seuemail@aqui.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+					
+					<label for="menssagem">Menssagem</label>
+					<textarea type="text" id="menssagem" cols="30" rows="10" required placeholder="Deixe uma mensagem para nos"></textarea>
+
+					<fieldset>
+						<legend>Como prefere nosso contato?</legend>
+						<label for="radio-email">Email</label>
+						<input type="radio" name="contato" value="email" id="radio-email">
+
+						<label for="radio-telefone">Telefone</label>
+						<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+						<label for="radio-whatsapp">WhatsApp</label>
+						<input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp" checked>
+					 	<input type="submit" value="Enviar fomulário" class="enviar">
+					</fieldset>
+					<fieldset>
+
+						<legend>Qual melhor horário para receber nossas novidas?</legend>
+						<select>
+							<option>Manhã</option>
+							<option>Tarde</option>
+							<option>Noite</option>
+						</select>
+
+					</fieldset>	
+
+					<label><input type="checkbox" checked>Gostária de receber nossas novidades pelo WhatsApp?</label>
+				</form>
+				<table>
+					<thead>
+						<tr>
+							<th>Horário de Atendimento</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>Segunda a Sexta</td>
+						</tr>
+						<tr>
+							<td>8:00 ás 18:00 Hrs</td>
+						</tr>
+					</tbody>
+				</table>
+					
+			</main>
+            
+			<footer>
+				
+				<img id="final" src="imagens/rodape.png" alt="Imagem roda pe">
+				<p>&copy; Copyriht Tauro Ribeiro!!!</p>
+			
+			</footer>
+
+		</body>
+
+	</html>
